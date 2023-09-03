@@ -4,18 +4,24 @@
 //
 // Mark
 // 8.31.23
-// Develop branch
-// even more changes!
-// these changes are happening after git ignore implementation.
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var diceImageView1: UIImageView!
+    
+    @IBOutlet weak var diceImageView2: UIImageView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        // stuff happens here
+        diceImageView1.image = UIImage(named: "DiceFour")
+        
+        diceImageView2.image = UIImage(named: "DiceTwo")
     }
 
 
